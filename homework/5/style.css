@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#site-header{
+    background-color: rgba(68, 21, 239, 0.393);
+    padding: 20px;
+}
+#site-header nav a {
+    display: block;
+    padding: 6px 12px;
+    color: #333333;
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 4px;
+}
+#site-header nav a[target="_blank"]{
+    background-color:#e3f2fd;
+    color:#1565c0;
+}
+ .card[data-type="featured"] h2{
+    background-color: rgba(110, 91, 180, 0.989);
+    padding: 5px;
+    border: 2px solid hsl(234, 65%, 44%);
+    border-radius: 12px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+ }
+.card[data-type="regular"] h2{
+    background-color: rgba(47, 33, 153, 0.615);
+    padding: 10px;
+    border: 1px solid #090909;
+    border-radius: 9px;
+    margin-bottom: 5px;
+}
+input[type="text"],input[type="email"]{
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: #fff;
+}
+input[type="password"]{
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    border: 2px solid #6c63ff;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: #975dcd;
+}
+button{
+    padding: 12px 25px;
+    border: 2px solid #6c63ff;
+    background-color: #d20af659;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
