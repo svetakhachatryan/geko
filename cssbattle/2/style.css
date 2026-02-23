@@ -1,0 +1,33 @@
+.container {
+  width: 400px;
+  height: 300px;
+  background-color: #62374E;
+  position: relative;
+}
+
+.box {
+  width: 50px;
+  height: 50px;
+  background-color: #FDC57B;
+  position: absolute;
+}
+
+.tl {
+  top: 40px;
+  left: 40px;
+}
+
+.tr {
+  top: 40px;
+  right: 40px;
+}
+
+.bl {
+  bottom: 40px;
+  left: 40px;
+}
+
+.br {
+  bottom: 40px;
+  right: 40px;
+}
