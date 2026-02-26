@@ -20,7 +20,6 @@ body {
   border-radius: 50%;
 }
 
-/* արտաքին 4 շրջան */
 .c1 { top: 0; left: 0; }
 .c2 { top: 0; right: 0; }
 .c3 { bottom: 0; left: 0; }

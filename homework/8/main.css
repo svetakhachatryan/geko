@@ -1,0 +1,19 @@
+.wrap {
+  display: flex;
+  align-items: center;
+  background: #1f2229;
+  padding: 20px 40px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.logo {
+  color: white;
+  font-weight: bold;
+  margin-right: auto;
+}
+
+.navbar {
+  display: flex;
+  gap: 30px;
+  margin-right: 30px;
+}

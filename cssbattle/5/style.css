@@ -1,0 +1,33 @@
+body {
+  background: #000;
+}
+
+.container {
+  position: relative;
+  width: 400px;
+  height: 300px;
+  margin: 50px auto;
+}
+
+.shape {
+  position: absolute;
+  width: 180px;
+  height: 120px;
+  border-radius: 0 120px 120px 0;
+  top: 90px;
+}
+
+.s1 {
+  background: #0E3B43;
+  left: 40px;
+}
+
+.s2 {
+  background: #F2C230;
+  left: 80px;
+}
+
+.s3 {
+  background: #D9A018;
+  left: 120px;
+}

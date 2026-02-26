@@ -1,0 +1,35 @@
+body {
+  background: #62306D;
+}
+
+.shape1 {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  margin: 50px auto;
+}
+
+.shape1 div {
+  position: absolute;
+  width: 100px;
+  height: 120px;
+  background: #F7EC7D;
+}
+
+.left {
+  bottom: 0;
+  left: 0;
+  border-radius: 0 0 50px 50px;
+}
+
+.middle {
+  top: 0;
+  left: 100px;
+  border-radius: 50px 50px 0 0;
+}
+
+.right {
+  bottom: 0;
+  right: 0;
+  border-radius: 0 0 50px 50px;
+}

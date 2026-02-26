@@ -1,0 +1,14 @@
+.shape2 {
+  background: #111;
+  padding: 50px;
+  display: flex;
+  gap: 20px;
+}
+
+.shape2 div {
+  width: 80px;
+  height: 100px;
+  background: #F4C542;
+  border-radius: 50% 0 50% 50%;
+  transform: rotate(45deg);
+}
