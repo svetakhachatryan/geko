@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    background: #a6a4a4;
+    justify-content: center;
+
+}
+
+.shaxmat{
+    display: grid;
+    grid-template-columns: repeat(8, 60px);
+}
+
+
+.shaxmat div {
+    width: 60px;
+    height: 60px;
+    background-color: #fff; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+
+.shaxmat div:nth-child(16n+1),
+.shaxmat div:nth-child(16n+3),
+.shaxmat div:nth-child(16n+5),
+.shaxmat div:nth-child(16n+7),
+.shaxmat div:nth-child(16n+10),
+.shaxmat div:nth-child(16n+12),
+.shaxmat div:nth-child(16n+14),
+.shaxmat div:nth-child(16n+16) {
+    background-color: #c0c0c0; 
+}
