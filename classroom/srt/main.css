@@ -1,0 +1,52 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: #1b1818;
+}
+
+.heart{
+    font-size: 50px;
+    color: #f00;
+    animation: heart 2s linear infinite;
+    position: absolute;
+    translate: -50%;
+}
+
+@keyframes heart {
+    0%{
+        translate: -70%;
+    }
+    10%{
+        translate: -30%;
+    }
+    20%{
+        translate: -60%;
+    }
+    30%{
+        translate: -50%;
+    }
+    40%{
+        translate: -60%;
+    }
+    50%{
+         translate: -70%;
+    }
+    60%{
+        translate: 80%;
+    }
+    70%{
+        translate: 90%;
+    }
+    80%{
+        translate: 100%;
+    }
+    100% {
+        opacity: 0;
+        translate: -50% -100vh;
+    }
+}
