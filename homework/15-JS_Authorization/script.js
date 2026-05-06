@@ -23,8 +23,7 @@ function login (username, password){
   return "Բարի գալուստ," + foundUser.username
 }
 
-console.log(login("john", "qwerty"));
-console.log(login("anna", "wrong"));
+
 console.log(login("admin", "1234"));
 
 
