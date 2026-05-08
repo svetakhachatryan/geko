@@ -34,8 +34,8 @@ function groupOrdersByUser(orders){
         let name = order.user
         if(!result[name]){
             result [name] = []
-            result [name].push(order)
         }
+        result [name].push(order)
     })
     return result
 }

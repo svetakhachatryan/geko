@@ -1,4 +1,4 @@
-document.addEventListener("mousemove", (event) => {
+document.addEventListener("click", (event) => {
     const x = event.clientX
     const y = event.clientY
     const heart = document.createElement("div")
