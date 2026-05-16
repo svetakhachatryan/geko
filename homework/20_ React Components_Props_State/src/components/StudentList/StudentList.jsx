@@ -6,7 +6,7 @@ const StudentList = ({students, onDelete}) => {
     <div className='students-list'>
       {students.map((student) => (
         <StudentCard
-        key = {studnet.id}
+        key = {student.id}
         {...student}
         onDelete = {onDelete}
         />

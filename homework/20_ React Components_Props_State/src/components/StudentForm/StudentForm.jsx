@@ -11,10 +11,11 @@ const StudentForm = (onAddStudent) => {
       name: name,
       age: Number(age),
       profession: "Frontend",
-      color: "#ffd43b"
+      color: "#eee4be"
     }
     onAddStudent(newStudent);
-    
+    setName('');
+    setAge('');
   }
   return (
     <form className='student-form'>
