@@ -1,8 +1,17 @@
 import React, { useState } from 'react'
 
-const StudentForm = (onAddStudent) => {
+const StudentForm = ({onAddStudent}) => {
   const [name, setName] = useState('')
   const [age, setAge] = useState('')
+  const generateColor = () => {
+    const characters = "0123456789ABCDEF";
+    let color = "#";
+    for (let i = 0; i < 6; i++){
+      const randomIndex = Math.floor(Math.random() * 16)
+     color += characters [randomIndex]
+      }
+      return color;
+  };
   const handleSubmit = (e) => {
     e.preventDefault()
     if (!name || !age) return;
@@ -11,14 +20,14 @@ const StudentForm = (onAddStudent) => {
       name: name,
       age: Number(age),
       profession: "Frontend",
-      color: "#eee4be"
+      color: generateColor()
     }
     onAddStudent(newStudent);
     setName('');
     setAge('');
   }
   return (
-    <form className='student-form'>
+    <form className='student-form' onSubmit={handleSubmit}> 
       <h2>Ավելացնել նոր ուսանող</h2>
       <div>
         <input 
