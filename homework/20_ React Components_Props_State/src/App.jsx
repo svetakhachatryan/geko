@@ -9,18 +9,21 @@ const App = () => {
      name: "Արման",
      age: 21,
      profession: "Frontend",
-     color: "#fffacd"
+     rating: 85,
+     color: "#fffacd",
     },
     {id: 2,
      name: "Անի",
      age: 20,
      profession: "UI/UX Design",
-     color: "#fff8dc"
+     rating: 79,
+     color: "#fff8dc",
     },
     {id: 3,
      name: "Կարեն",
      age: 24,
      profession: "Backend",
+     rating: 63,
      color: "#f5f5dc"
     },
   ]) 
@@ -34,7 +37,7 @@ const App = () => {
   }
   return (
     <div className='App'>
-      <h1>Student Managment System</h1>
+      <h1>Student Management System</h1>
       <StudentForm onAddStudent={handleAddStudent}/>
       <StudentList students={students} onDelete={handleDelete}/>
     </div>
