@@ -7,6 +7,8 @@ import { I18nextProvider } from 'react-i18next';
 
 createRoot(document.getElementById('root')).render(
   <I18nextProvider>
-    <App />
+    <Provider store={store}>
+      <App />
+    </Provider>
   </I18nextProvider>
 )
