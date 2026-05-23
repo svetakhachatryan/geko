@@ -29,7 +29,7 @@ const CourseDetails = () => {
           <li key={index}>{topic}</li>
         ))}
       <button onClick={()=> setEnrolled(!enrolled)}>
-        {enrolled ? "Գրանցված եք" : "Գրանցվել"}
+        {enrolled ? "Գրանցվել" : "Գրանցված եք"}
       </button>
     </div>
   )
