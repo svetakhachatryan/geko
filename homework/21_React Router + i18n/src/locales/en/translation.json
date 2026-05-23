@@ -1,0 +1,18 @@
+{
+    "title": "JavaScript Basics",
+    "category": "Programming",
+    "rating": 4.8,
+    "students": 1240,
+    "duration": "12 hours",
+    "level": "Beginner",
+    "name": "Edgar",
+    "description":"A complete JavaScript basics course for beginners. You will learn to work with variables, functions, objects, and much more.",
+    "topics": [
+         "Variables and Data Types",
+        "Functions and Arrow Functions",
+        "Arrays and Methods",
+        "Objects and Classes",
+        "Asynchronous JavaScript: Promise, async/await",
+        "Working with the DOM"
+     ]
+}
