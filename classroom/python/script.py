@@ -1,4 +1,1 @@
-if 5 == 4:
-    print()    
-else:
-    print()
+with open("users.json", "+a")
