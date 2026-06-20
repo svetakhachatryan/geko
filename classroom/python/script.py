@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 day = int(input("Enter a number (1-7): " ))
 
 if day == 1:
@@ -14,3 +15,6 @@ elif day == 6:
     print("saturday")
 elif day == 7:
     print("sunday")
+=======
+with open("users.json", "+a")
+>>>>>>> c846336d339113cdcc3a062362bb5f011d3e4af7
